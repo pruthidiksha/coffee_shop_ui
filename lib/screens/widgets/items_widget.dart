@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../single_item_screen.dart';
+
 class ItemsWidget extends StatelessWidget {
   List img = ["Latte", "Espresso", "Black Coffee", "Cold Coffee"];
 
@@ -30,7 +32,8 @@ class ItemsWidget extends StatelessWidget {
             child: Column(
               children: [
                 InkWell(
-                  onTap: () {},
+                  onTap: () {  Navigator.push(context, MaterialPageRoute(builder: (context) => SingleItemScreen(img[i])));
+                  },
                   child: Container(
                       margin: const EdgeInsets.all(10),
                       child: Image.asset(
