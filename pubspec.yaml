@@ -61,6 +61,10 @@ flutter:
 
   assets:
     - assets/images/bg.png
+    - assets/images/Latte.png
+    - assets/images/Black Coffee.png
+    - assets/images/Cold Coffee.png
+    - assets/images/Espresso.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
