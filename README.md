@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+![Image](assets/welcome_page.png)
+![Image](assets/homepage.png)
+![Image](assets/item_page.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

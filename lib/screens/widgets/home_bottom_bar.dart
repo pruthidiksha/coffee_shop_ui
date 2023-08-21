@@ -7,7 +7,7 @@ class HomeBottomBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 15),
-      height: 80,
+      height: 50,
       decoration: BoxDecoration(
           color: const Color(0xff212325),
           boxShadow: [
@@ -20,10 +20,10 @@ class HomeBottomBar extends StatelessWidget {
       child: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(Icons.home, size: 35, color: Color(0xffe57734),),
-          Icon(Icons.favorite_outline, size: 35, color: Colors.white),
-          Icon(Icons.notifications, size: 35, color: Colors.white,),
-          Icon(Icons.person, size: 35, color: Colors.white,),
+          Icon(Icons.home, size: 30, color: Color(0xffe57734),),
+          Icon(Icons.favorite_outline, size: 30, color: Colors.white),
+          Icon(Icons.notifications, size: 30, color: Colors.white,),
+          Icon(Icons.person, size: 30, color: Colors.white,),
         ],
       ),
     );
